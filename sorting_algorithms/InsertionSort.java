@@ -1,7 +1,14 @@
 import java.util.*;
 class Solution
 {
-    void display(int a[])
+    int n;
+    int a[];
+    Solution(int x)
+    {
+        n=x;
+        a=new int[n];
+    }
+    void display()
     {
         for(int i=0;i<a.length;i++)
         {
@@ -9,9 +16,8 @@ class Solution
         }
         System.out.println();
     }
-    int[] insertionsort(int a[])
+    void insertionSort()
     {
-        int n=a.length;
         for(int i=1;i<n;i++)
         {
             int key=a[i];
@@ -23,29 +29,28 @@ class Solution
             }
             a[j+1]=key;
         }
-        return a;
     }
     void func()
     {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the Size of the Array");
-        int n=sc.nextInt();
-        int a[]=new int[n];
         System.out.println("Enter the Datas");
         for(int i=0;i<n;i++)
         {
             a[i]=sc.nextInt();
         }
-        display(a);
-        a=insertionsort(a);
-        display(a);
+        display();
+        insertionSort();
+        display();
     }
 }
 public class InsertionSort
 {
     public static void main(String args[])
     {
-        Solution obj=new Solution();
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the Size of the Array");
+        int x=sc.nextInt();
+        Solution obj=new Solution(x);
         obj.func();
     }
 }
