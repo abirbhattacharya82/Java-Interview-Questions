@@ -15,3 +15,5 @@
 - [Solution](MainSeven.java)
 8 Swap two numbers without a temp variable
 - [Solution](MainEight.java)
+9 Merge two Sorted Arrays
+- [Solution](MainNine.java)
