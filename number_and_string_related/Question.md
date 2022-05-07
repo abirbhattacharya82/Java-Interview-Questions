@@ -8,3 +8,7 @@
 - [Solution](MainFour.java)
 5 Enter a couple of String and check if they are Anagrams or not
 - [Solution](MainFive.java)
+6 Calculate Average of n Numbers
+- [Solution](MainSix.java)
+7 Given Two Strings A and B eliminate all occurence of the second string
+- [Solution](MainSeven.java)
