@@ -6,3 +6,5 @@
 - [Solution](MainThree.java)
 4 Check if a String is Palindrome or Not
 - [Solution](MainFour.java)
+5 Enter a couple of String and check if they are Anagrams or not
+- [Solution](MainFive.java)
