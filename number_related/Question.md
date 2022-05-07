@@ -4,3 +4,5 @@
 - [Solution](MainTwo.java)
 3 Factorial by Recursion
 - [Solution](MainThree.java)
+4 Check if a String is Palindrome or Not
+- [Solution](MainFour.java)
