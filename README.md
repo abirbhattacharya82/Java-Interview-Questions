@@ -1,6 +1,6 @@
 # JAVA Interview Questions
 
-## Contents
+## Index
 - [Exception Handling](exception_handling\README.md)
 - [Hash Map](hash_map_question\README.md)
 - [Hash Set](hash_set_question\README.md)
