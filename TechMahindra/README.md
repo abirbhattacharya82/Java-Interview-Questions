@@ -1,17 +1,22 @@
 1.
 ```
-Build a program for calculating and returning the sums of absolute differences between adjacent numbers in arrays of positive integers. This must be calculated from the position determined by the current user.
+Write a program to calculate and return the sum of absolute difference between the adjacent number in an array of positive integers from the position entered by the user.
 
-In the case of this coding problem, you use three positional arguments through a findTotalSum function. The three inputs you would require are the number of elements inside the array, the elements in the array and the position from where this function will take place.
+Note : You are expected to write code in the findTotalSum function only which receive three positional arguments:
 
-For example, suppose the total number of elements is 5 and these are the elements:
+1st : number of elements in the array
+2nd : array
+3rd : position from where the sum is to be calculated
 
-1 2 3 6 4
+Example
 
-Then, if we decide to start from the 3rd position or enter 3 as input, the function will occur from ‘3’, the 3rd number in the array.
+Input
+input 1 : 7
+input 2 : 11 22 12 24 13 26 14
+input 3 : 5
 
-
-Hence, the sum would be a total of (6-3)+(4-6)= 5
+Output
+25
 ```
 2.
 ```
@@ -31,21 +36,28 @@ Output
 ```
 3.
 ```
-Write a program to calculate and return the sum of absolute difference between the adjacent number in an array of positive integers from the position entered by the user.
+A Cloth merchant has some pieces of cloth of different lengths. He has an order of curtains of length of 12 feet. He has to find how many curtains can  be made from these pieces. Length of pieces of cloth is recorded in feet.
 
-Note : You are expected to write code in the findTotalSum function only which receive three positional arguments:
-
-1st : number of elements in the array
-2nd : array
-3rd : position from where the sum is to be calculated
+Note : You are expected to write code in the findTotalCurtains function only which receive the first parameter as the number of items in the array and second parameter as the array itself. You are not required to take the input from the console.
 
 Example
 
+Finding the total curtains from a list of 5 cloth pieces.
+
 Input
-input 1 : 7
-input 2 : 11 22 12 24 13 26 14
-input 3 : 5
+input 1 : 5
+input 2 : 3 42 60 6 14
 
 Output
-25
+9
+
+Explanation
+The first parameter 5 is the size of the array. Next is an array of measurements in feet. The total number of curtains is 5 which is calculated as under
+
+3 -> 0
+42 -> 3
+60 -> 5
+6 -> 0
+14 -> 1
+total = 9
 ```
