@@ -9,12 +9,28 @@ public class Solution
     {
         Scanner sc=new Scanner(System.in);
         int n=Integer.parseInt(sc.nextLine());
-        char ch[]={'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
         for(int i=0;i<n;i++)
         {
-            String a=sc.nextLine();
-            HashMap<Character,Integer>=new HashMap<>();
-            
+            String a=sc.nextLine().toLowerCase();
+            ArrayList<Character> ch=new ArrayList<>();
+            for(int j=0;j<a.length();j++)
+            {
+                if((a.charAt(j)>='a' && a.charAt(j)<='z'))
+                {
+                    if(ch.indexOf(a.charAt(j))!=-1)
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                        ch.add(a.charAt(j));
+                    }
+                }
+            }
+            if(ch.size()==26)
+                System.out.println("1");
+            else
+                System.out.println("0");
         }
     }
 }
